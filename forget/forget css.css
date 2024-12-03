@@ -1,0 +1,130 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: #e6e6e6;
+}
+
+/* Image Section */
+.image-section {
+  width: 50%;
+  background: url('https://s3-alpha-sig.figma.com/img/56b9/656e/4643172f5a7c37a594841c4236f29668?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mzDRRhC0r4o08Hr598YgUkcxoD5B008OFOP6uKF7~qNQPo9bi1dmY7gKTviOZjaZ3vEvKZE4E7kwez2F5mD-jEg9xnTFsh93RdHNeRL0EkwW74o6Wb3q643WPxcHdSRxbTTsW5MDmIrzaEEqqIP2lrAJY3jtLHqeBEfw75fTgyHcajmqtk9HRXmoQ3j-2ySx85zJyWPVYSEedF8MFQY7QDESAjgXI~YAZPUMjFWhRG-UYab8itlbeQ5Bf0TSUBB7PtvJIWsFIrMmk7ne2ZNRyfGC7csYL3MasCf39a5oDdhywOzavP2bL1sU4lMFU9bFArSen4CdYdTSWXTzHhKnug__') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  padding: 20px;
+  width: 690px;
+  height: 900px;
+}
+
+.image-details {
+  text-align: left;
+  position: relative;
+}
+
+.image-details p {
+  margin-top: 0px; 
+  font-size: 1rem; 
+  margin-bottom: 250px;
+  margin-left: 0px;
+  margin-right: 200px;
+  padding: 20px;
+  background: url('https://i.postimg.cc/cLCbJn82/Rectangle-10.png ' )  center/cover no-repeat;
+  height: 158.04px;
+  width: 246px;
+}
+
+.form-section {
+  width: 50%;
+  padding: 40px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #20DC49;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  height: 57.57px;
+  width: 400px;
+}
+
+.sign-in-link {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  font-size: 0.9rem;
+}
+
+.sign-in-link a {
+  color: #00b894;
+  text-decoration: none;
+}
+
+.sign-in-link a:hover {
+  text-decoration: underline;
+}
+.image-section {
+  width: 50%; 
+}
+
+.form-section {
+  width: 50%; 
+}
